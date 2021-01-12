@@ -50,7 +50,7 @@ header li:hover{
 }
 
 main {
-    background-image: url(/img/webdesign1.jpg);
+    background-image: url(../img/webdesign1.jpg);
     
     height: 90vh;
     background-size: cover;
