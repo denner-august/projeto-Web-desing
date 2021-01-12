@@ -1,0 +1,174 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+#menu-open{
+    display: none;
+}
+
+header{
+    width: 100%;
+    height: 14vh;
+    background-color: #2A2D34;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: fixed;
+    z-index: 1;
+}
+
+header h1{
+    font-size: 22px;
+    text-transform:capitalize;
+    color: white;
+}
+
+
+
+header li{
+    text-decoration: none;
+    list-style: none;
+    color: white;
+    padding: 15px;
+    text-transform: capitalize;
+    font-size: 15px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+}
+
+header li:hover{
+    cursor: pointer;
+    color: yellow;
+}
+
+main {
+    background-image: url(/img/webdesign1.jpg);
+    
+    height: 90vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+main h1{
+    font-size: 50px;
+}
+
+main p{
+    font-size: 30px;
+}
+
+#sobre{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#ideal{
+    margin: 50px 15vw;
+    background-color:#5B5B5B;
+
+}
+
+#ideal ul{
+    display: flex;
+    flex-direction: row;
+}
+
+#ideal li{
+    padding: 25px;
+    color: white;
+}
+
+#ideal li:hover{
+    background-color: #2A2D34;
+    cursor: pointer;
+}
+
+#ideal p{
+    background-color:#2A2D34;
+    color: white;
+    padding: 25px;
+}
+
+#servico{
+    margin-top: 10vh;
+    text-align: center;
+}
+
+#servico_descri{
+    height: 200px;
+    color: white;
+    display: flex;
+    justify-content: center;
+   
+    text-align: center;
+}
+
+#servico_descri p{
+    margin-top: 50px;
+    background-color: #2A2D34;
+    padding: 40px;
+}
+
+#titulo_projeto {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    text-align: center;
+}
+
+#projeto{
+    padding: 0px 10%;
+    
+   
+}
+
+#projeto ul{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#projeto li{
+    transition: 0.5s;
+    -webkit-box-shadow: 0px 0px 50px 11px rgba(0,0,0,0.28); 
+    box-shadow: 0px 0px 50px 11px rgba(0,0,0,0.28);
+    margin: 10px;
+}
+
+#projeto li:hover{
+    transform: translateY(-30px);
+}
+
+
+.imagem1{
+    width: 350px;
+    height: 300px;
+}
+
+.imagem2{
+    width: 350px;
+    height: 300px;
+}
+
+
+.imagem3{
+    width: 300px;
+    height: 300px;
+}
+
+.imagem4{
+    width: 350px;
+    height: 300px;
+    
+}

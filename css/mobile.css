@@ -1,0 +1,53 @@
+@media screen and (max-width:1024px){
+    header ul{
+        display: none;
+    }
+    #menu-open{
+        display: initial;
+        width: 22px;
+        height: 28px;
+    }
+    main{
+        text-align: center;
+        color: white;
+    }
+    main h1{
+        font-size: 30px;
+    }
+
+    main p{
+        font-size: 15px;
+    }
+
+    #ideal{
+        margin: 50px 5vw;
+    }
+
+    #titulo_projeto{
+        padding-top: 20vh;
+        text-align: center;
+    }
+
+
+    #projeto{
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        width: auto;
+        padding: 0;
+        margin: 0;
+    }
+
+    #projeto ul{
+        display: flex;
+        flex-direction: column;
+    }
+    #projeto li:hover{
+        transform: translateY(0px);
+    }
+
+    .imagem3{
+        width: 100%;
+    }
+
+}
