@@ -1,12 +1,6 @@
 @media screen and (max-width:1024px){
-    header ul{
-        display: none;
-    }
-    #menu-open{
-        display: initial;
-        width: 22px;
-        height: 28px;
-    }
+   
+    
     main{
         text-align: center;
         color: white;
@@ -34,20 +28,42 @@
         display: flex;
         justify-content: center;
         width: auto;
-        padding: 0;
+        padding: 0px 0%;
         margin: 0;
     }
 
     #projeto ul{
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
     }
     #projeto li:hover{
-        transform: translateY(0px);
+        transform: translateY(-15px);
     }
 
-    .imagem3{
-        width: 100%;
+   
+}
+
+@media screen and (max-width:900px){
+    header ul{
+        display: none;
     }
 
+    #menu-open{
+        display: initial;
+        width: 22px;
+        height: 28px;
+        cursor: pointer;
+    }
+    
+    #projeto img{
+        width: 100vw;
+     }
+
+     #projeto li:hover{
+        transform: translateY(-0px);
+    }
+
+    #formulario #nome,#email, #mensagem,button{
+        width: 90%;
+    }
 }
