@@ -48,8 +48,46 @@
 }
 
 @media screen and (max-width:900px){
+    
+    #menu-mobile{
+        background-color: rgba(0, 0, 0, 0.938);
+        position: absolute;
+        z-index: 1;
+        position: fixed;
+        width: 70vw;
+        height: 100vh;
+        justify-content: center;
+        transform: translateX(100vw);
+        transition: 1s;
+    }
+    
+    #menu-mobile ul{
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #menu-mobile li{
+        padding: 30px;
+        cursor: pointer;
+        color: white;
+
+    }
+
+    #menu-mobile li:hover{
+        color: yellow;
+    }
+
+
+    
     header ul{
         display: none;
+    }
+
+    header li{
+        color: black;
     }
 
     #menu-open{
